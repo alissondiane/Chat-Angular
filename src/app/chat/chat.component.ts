@@ -44,8 +44,6 @@ export class ChatComponent implements OnInit {
       console.log('Desconectados:' + !this.client.connected + ' : ' + frame);
       this.conectado = false;
     }
-    
-
   }
 
   conectar():void{
